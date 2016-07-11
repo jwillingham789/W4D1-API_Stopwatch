@@ -1,0 +1,42 @@
+.jumbotron {
+  background-color: black;
+}
+
+.jumbotron .time {
+  color: white;
+}
+
+.jumbotron button {
+  background: #FFFFFF;
+  border-radius: 19px;
+  color: rgba(0, 0, 0, 0.71);
+  font-size: 14px;
+  width: 100px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 0.2px solid #dadada;
+}
+
+.jumbotron button:hover {
+  color: rgba(29, 182, 173, 0.8);
+  transition: color 0.3s, border 0.3s;
+}
+
+.blink {
+  animation: blink .75s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  50.01% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
